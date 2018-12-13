@@ -1,6 +1,6 @@
 package com.let.aoc2018;
 
-import static com.let.exercises.utils.FileAccess.loadFile;
+import static com.let.utils.FileAccess.loadFile;
 
 import java.io.IOException;
 import java.util.ArrayList;

@@ -10,7 +10,7 @@ import org.apache.commons.io.IOUtils;
 public class FileAccess {
 
 	public static String loadFile(ClassLoader classLoader, String fileName) throws IOException {
-		String path = "aoc2018/" + fileName + ".txt";
+		String path = fileName + ".txt";
 		InputStream stream = classLoader.getResourceAsStream(path);
 		String var3;
 		try {

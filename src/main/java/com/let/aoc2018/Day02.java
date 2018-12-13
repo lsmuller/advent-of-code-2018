@@ -4,7 +4,7 @@ import java.io.IOException;
 
 import org.springframework.util.StringUtils;
 
-import com.let.exercises.utils.FileAccess;
+import com.let.utils.FileAccess;
 
 public class Day02 {
 

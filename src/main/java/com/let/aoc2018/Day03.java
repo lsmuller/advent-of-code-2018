@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import com.let.exercises.utils.FileAccess;
+import com.let.utils.FileAccess;
 
 public class Day03 {
 

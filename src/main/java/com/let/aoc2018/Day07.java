@@ -10,7 +10,7 @@ import java.util.Map;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.let.exercises.utils.FileAccess;
+import com.let.utils.FileAccess;
 
 public class Day07 {
 	public static void main(String[] args) throws IOException {
