@@ -50,14 +50,6 @@ public class Day08 {
 		return sum;
 	}
 
-	private static int getChildsSize(int childQty) {
-		int totalChildsSize = 0;
-		for (int i = 0; i < childQty; i ++) {
-			totalChildsSize += childsSizes.pop();
-		}
-		return totalChildsSize;
-	}
-
 	private static int determineChildsSize(int childQty, int metadataQty) {
 		int totalChildsSize = 0;
 		for (int i = 0; i < childQty; i ++) {
